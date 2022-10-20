@@ -2,14 +2,18 @@ import { FC } from "react";
 
 const Logo: FC = () => {
   return (
+    <div style={{
+      width: 150,
+    }}>
     <img
-      src="https://www.tenecesito.cl/static/media/tenecesito-navlogo.28b4f7ec.png"
+      src="/logoheader.png"
       alt="logo"
       style={{
-        width: "150px",
+        width: "200px",
         height: "auto",
       }}
     />
+    </div>
   );
 };
 
