@@ -30,7 +30,7 @@ const WhatsappButton: FC<WhatsappButtonProps> = ({ text, phone, message }) => {
       rel="noreferrer"
     >
       <img
-        src="https://ebweb.es/wp-content/uploads/2020/09/logo-wasap.png"
+        src="/logo-wasap.png"
         alt="whatsapp"
         style={{
           width: "50px",
